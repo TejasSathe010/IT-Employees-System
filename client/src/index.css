@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.loginPage {
+  background: linear-gradient(#11111150, #10101050), url('../public/images/login-page-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.loginForm {
+  background-color: #01329361;
+  color: #FFF;
+}
