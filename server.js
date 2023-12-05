@@ -5,6 +5,7 @@ const path = require('path');
 const cors = require('cors');
 const { logger, logEvents } = require('./middleware/logEvents');
 const adminRouter = require('./routes/adminRoute');
+const addCategory = require('./routes/addCategoryRoute');
 const PORT = process.env.PORT || 3500;
 
 app.use(logger);
@@ -28,10 +29,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use('/auth', adminRouter);
-
-app.use('/', (req, res) => {
-    console.log('Request raised!!')
-});
+app.use('/auth', addCategory);
 
 
 app.listen(PORT, () => { console.log('Server listening on port ' + PORT) });

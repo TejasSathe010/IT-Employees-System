@@ -57,3 +57,17 @@
 20231203	23:36:13	 b3c41d5f-4994-47d7-a55a-2ab891aada6e	 POST	 undefined	 /auth/adminlogin
 20231203	23:45:04	 535adccd-6335-4e87-8e39-7f90809c8a87	 OPTIONS	 undefined	 /auth/adminlogin
 20231203	23:45:04	 1791a596-99ee-4b0e-bb81-0229a3e1417d	 POST	 undefined	 /auth/adminlogin
+20231205	16:46:59	 1921c4a3-c903-4476-bb16-d1e5396a00e8	 OPTIONS	 undefined	 /auth/adminlogin
+20231205	16:46:59	 43e20da7-0d72-4e46-b1ec-b8005b169b80	 POST	 undefined	 /auth/adminlogin
+20231205	17:12:21	 17daa166-d3bf-4db1-90f1-5499c3eca134	 OPTIONS	 undefined	 /auth/add_category/
+20231205	17:12:21	 acbf50b2-6fb0-4fb5-af72-d6f233fe1ad1	 POST	 undefined	 /auth/add_category/
+20231205	17:13:10	 4e88a074-975a-4445-8d5d-bed1b1636eec	 OPTIONS	 undefined	 /auth/add_category/
+20231205	17:13:10	 3bbc698f-c8c6-48c4-a565-0db63d1d706b	 POST	 undefined	 /auth/add_category/
+20231205	17:15:10	 af4466b5-97bf-47d0-9766-eb6b8b80060b	 OPTIONS	 undefined	 /auth/add_category/
+20231205	17:15:10	 ad88411f-01a2-4ab7-872e-267ad6779c5a	 POST	 undefined	 /auth/add_category/
+20231205	17:15:17	 f9a09af1-8e69-4389-abc0-891fea5fb697	 OPTIONS	 undefined	 /auth/add_category/
+20231205	17:15:17	 8f31eb9a-7f52-486c-b598-3d67b61a6e06	 POST	 undefined	 /auth/add_category/
+20231205	17:15:37	 b14d2f9b-5b33-4345-9aa5-339602deaf9a	 OPTIONS	 undefined	 /auth/add_category/
+20231205	17:15:37	 0b326f5f-8c46-4c87-9206-ddb9351e0c87	 POST	 undefined	 /auth/add_category/
+20231205	17:17:05	 6ff9449f-f5cf-4665-aef6-6304a68efa64	 OPTIONS	 undefined	 /auth/add_category/
+20231205	17:17:05	 5b44e34d-d58a-4867-ac55-2a5688bebd11	 POST	 undefined	 /auth/add_category/
