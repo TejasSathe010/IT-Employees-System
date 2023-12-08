@@ -22,14 +22,14 @@ const corsOptions = {
         }
     },
     optionsSuccessStatus: 200,
-    methods: ['GET', 'POST', 'PUT'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }
 app.use(cors(corsOptions));
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static('public')); 
 
 app.use('/auth', adminRouter);
 app.use('/auth', addCategory);

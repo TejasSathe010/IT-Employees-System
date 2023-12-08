@@ -1,13 +1,13 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Employee = () => {
   const [employee, setEmployee] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:3500/auth/employee")
+      .get('http://localhost:3500/auth/employee')
       .then((result) => {
         if (result.data.Status) {
           setEmployee(result.data.Result);
@@ -18,15 +18,16 @@ const Employee = () => {
       .catch((err) => console.log(err));
   }, []);
   const handleDelete = (id) => {
-    axios.delete('http://localhost:3000/auth/delete_employee/'+id)
-    .then(result => {
-        if(result.data.Status) {
-            window.location.reload()
+    axios
+      .delete('http://localhost:3500/auth/delete_employee/' + id)
+      .then((result) => {
+        if (result.data.Status) {
+          window.location.reload();
         } else {
-            alert(result.data.Error)
+          alert(result.data.Error);
         }
-    })
-  } 
+      });
+  };
   return (
     <div className="px-5 mt-3">
       <div className="d-flex justify-content-center">
@@ -49,11 +50,11 @@ const Employee = () => {
           </thead>
           <tbody>
             {employee.map((e) => (
-              <tr>
+              <tr key={e.id}>
                 <td>{e.name}</td>
                 <td>
                   <img
-                    style={{height:30}}
+                    style={{ height: 30 }}
                     src={`http://localhost:3500/images/` + e.image}
                     className="employee_image"
                   />
@@ -64,14 +65,12 @@ const Employee = () => {
                 <td>
                   <Link
                     to={`/dashboard/edit_employee/` + e.id}
-                    className="btn btn-info btn-sm me-2"
-                  >
+                    className="btn btn-info btn-sm me-2">
                     Edit
                   </Link>
                   <button
                     className="btn btn-warning btn-sm"
-                    onClick={() => handleDelete(e.id)}
-                  >
+                    onClick={() => handleDelete(e.id)}>
                     Delete
                   </button>
                 </td>
