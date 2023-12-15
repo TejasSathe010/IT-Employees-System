@@ -5,17 +5,25 @@ import Home from './components/Home';
 import Employee from './components/Employee';
 import Category from './components/Category';
 import Profile from './components/Profile';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import AddCategory from './components/AddCategory';
 import AddEmployee from './components/AddEmployee';
 import EditEmployee from './components/EditEmployee';
+import Start from './components/Start';
+import EmployeeLogin from './components/EmployeeLogin';
+import EmployeeDetails from './components/EmployeeDetails';
+
  
 function App() {
+
   return (
     <div>
       <BrowserRouter>
         <Routes>
+        <Route path='/' element={<Start />} />
           <Route path='/adminlogin' element={<Login />} />
+          <Route path='/employee_login' element={<EmployeeLogin />} />
+          <Route path='/employee_detail/:id' element={<EmployeeDetails />}></Route>
           <Route path='/dashboard' element={<Dashboard />}>
             <Route path='' element={<Home />} />
             <Route path='/dashboard/employee' element={<Employee />} />

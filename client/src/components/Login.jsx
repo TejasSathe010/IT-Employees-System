@@ -31,7 +31,7 @@ const Login = () => {
         <div className="text-danger">
           { loginError && loginError }
         </div>
-        <h2>Employee Login</h2>
+        <h2>Admin Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             {/* <label htmlFor="email"><strong>Email: </strong></label> */}
