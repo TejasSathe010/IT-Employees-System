@@ -12,6 +12,7 @@ import EditEmployee from './components/EditEmployee';
 import Start from './components/Start';
 import EmployeeLogin from './components/EmployeeLogin';
 import EmployeeDetails from './components/EmployeeDetails';
+import PrivateRoute from './components/PrivateRoute';
 
  
 function App() {
@@ -24,7 +25,11 @@ function App() {
           <Route path='/adminlogin' element={<Login />} />
           <Route path='/employee_login' element={<EmployeeLogin />} />
           <Route path='/employee_detail/:id' element={<EmployeeDetails />}></Route>
-          <Route path='/dashboard' element={<Dashboard />}>
+          <Route path='/dashboard' element={
+            <PrivateRoute>
+              <Dashboard />
+            </PrivateRoute>
+          }>
             <Route path='' element={<Home />} />
             <Route path='/dashboard/employee' element={<Employee />} />
             <Route path='/dashboard/category' element={<Category />} />
