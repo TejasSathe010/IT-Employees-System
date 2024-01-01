@@ -26,3 +26,11 @@ Key Features:
 This Employee Management System streamlines administrative tasks for handling employee data, access control, and category management while providing employees with a platform to manage their profiles within the organization.
 
 ![alt text](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png)
+
+![alt text]([https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.03.08%20PM.png))
+
+![alt text]([https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.03.51%20PM.png))
+
+![alt text]([https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.04.03%20PM.png))
+
+![alt text]([https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.04.27%20PM.png)https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.04.27%20PM.png)
