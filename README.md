@@ -27,7 +27,7 @@ This Employee Management System streamlines administrative tasks for handling em
 
 ![alt text](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png)
 
-![alt text]([https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.03.08%20PM.png))
+![alt text]([[https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.03.08%20PM.png)](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.03.08%20PM.png))
 
 ![alt text]([https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.03.51%20PM.png))
 
