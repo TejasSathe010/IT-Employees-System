@@ -25,6 +25,11 @@ Key Features:
 
 This Employee Management System streamlines administrative tasks for handling employee data, access control, and category management while providing employees with a platform to manage their profiles within the organization.
 
+Languague used to develop - HTML, CSS, JavaScript, React framework, and Node.JS framework.
+Database used - MySQL, and MySql workspace
+CSS concepts used - Google fonts, Grid, and Flexbox.
+Javascript concepts used - Localstorage, cookies and Array predefined methods.
+
 ![alt text](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.02.07%20PM.png)
 
 ![alt text](https://github.com/TejasSathe010/IT-Employees-System/blob/main/Screenshots/Screenshot%202023-12-31%20at%208.03.08%20PM.png)
